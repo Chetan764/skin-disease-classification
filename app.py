@@ -1,5 +1,5 @@
 import streamlit as st
-from tensorflow.keras.preprocessing import image
+from keras.preprocessing import image
 import numpy as np
 
 # Load the pre-trained model
