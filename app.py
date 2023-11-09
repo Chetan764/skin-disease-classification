@@ -4,7 +4,7 @@ from tf.keras.preprocessing import image
 import numpy as np
 
 # Load the pre-trained model
-model = keras.models.load_model(r'C:\Users\cheta\Downloads\best-model1.h5')
+model = tf.keras.models.load_model(r'C:\Users\cheta\Downloads\best-model1.h5')
 
 # Define the classes
 classes = ['Earmites', 'Flea_allergy', 'Healthy', 'Leprosy', 'Pyoderma', 'Ringworm']
