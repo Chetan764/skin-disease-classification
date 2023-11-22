@@ -1,10 +1,10 @@
 import streamlit as st
-import tensorflow as tf
-from tf.keras.preprocessing import image
+import tensorflow 
+from tensorflow.keras.preprocessing import image
 import numpy as np
 
 # Load the pre-trained model
-model = tf.keras.models.load_model(r'best-model1.h5')
+model = tensorflow.keras.models.load_model(r'best-model1.h5')
 
 # Define the classes
 classes = ['Earmites', 'Flea_allergy', 'Healthy', 'Leprosy', 'Pyoderma', 'Ringworm']
